@@ -1,6 +1,6 @@
 :root{
     font-size: 16px;
-    --color-dark-blue:#283C63;
+    --color-dark-blue:#000C24;
     --color-pink:#F85F73;
     --color-grey:#cccccc;
 }
@@ -71,12 +71,11 @@ nav{
     font-size: 2rem;
     color: var(--color-grey);
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .social-contact{
     padding: 1rem;
     width: 13rem;
-    margin-top: 2rem;
-    border: white .2rem solid;
 }
 .social-contact img{
     width: 2rem;
@@ -172,4 +171,69 @@ nav{
     width: 20rem;
     height: 30rem;
     background-color: aquamarine;
+}
+
+.footer{
+    margin-top: 3rem;
+}
+.contact{
+    background-image: url("./Assets/footerbg.png"); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem 2rem 0rem;
+}
+.contact-form-container{
+    padding: 1rem;
+    width: 85%;  
+    height: 60vh;
+    display: flex;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact-form{
+    margin-top:10%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.message{
+    font-size: 2rem;
+    color: var(--color-dark-blue);
+    margin-top: 10%;
+}
+.message p{
+    margin: 0;
+}
+.footer-social{
+    background-color: var(--color-dark-blue);
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-title{
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+
+input,textarea{
+
+    width: 80%;
+    padding: 0.4rem;
+    margin: 1rem  0 0rem 0rem;
+
 }
